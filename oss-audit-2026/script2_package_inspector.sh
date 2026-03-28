@@ -2,11 +2,12 @@
 
 PACKAGE=${1:-git}
 
-echo "=========================================="
+echo "----------------------------------------"
 echo "Checking package: $PACKAGE"
-echo "=========================================="
+echo "----------------------------------------"
 
-if command -v dpkg >/dev/null 2>&1; then
+# works for Ubuntu/Debian
+if dpkg -l | grep -q "$PACKAGE"; then
     if dpkg -l | grep -qw "$PACKAGE"; then
         VERSION=$(dpkg -s "$PACKAGE" | grep '^Version:' | awk '{print $2}')
         echo "[+] Installed (Debian-based)"
