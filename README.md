@@ -1,8 +1,8 @@
 # Open Source Audit: Git
 
-**Student Name: Yatin
-**Roll Number: 24BCE11069
-**Chosen Software:** Git (GPL v2)
+Student Name: Yatin   
+Roll Number: 24BCE11069    
+Chosen Software:** Git (GPL v2)
 
 ---
 
