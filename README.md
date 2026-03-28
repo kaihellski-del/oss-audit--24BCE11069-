@@ -1,14 +1,17 @@
 # Open Source Audit: Git
 
-**Student Name:** Anonymous Candidate
-**Roll Number:** 2026-OSS-AUDIT
+**Student Name: Yatin
+**Roll Number: 24BCE11069
 **Chosen Software:** Git (GPL v2)
 
 ---
 
-## Description
+## About Me
 
-This repository contains the five required shell scripts for the Open Source Audit Capstone Project, demonstrating practical Linux command-line automation, system auditing, and open-source philosophical concepts.
+This project was created as part of my Open Source Software course.  
+I have implemented all scripts using basic Linux commands and shell scripting.
+
+Some scripts may not be optimized but are designed for learning purposes.
 
 The audit covers:
 - Origin and philosophy of Git
